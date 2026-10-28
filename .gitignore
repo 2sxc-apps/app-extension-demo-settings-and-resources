@@ -1,0 +1,7 @@
+.vs/
+.vscode/
+node_modules/
+**/App_Data/package-index.json
+*.user
+*.suo
+

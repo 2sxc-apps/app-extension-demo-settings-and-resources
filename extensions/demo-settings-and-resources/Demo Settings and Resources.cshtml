@@ -1,0 +1,49 @@
+@inherits Custom.Hybrid.RazorTyped
+@using AppCode.Extensions.DemoSettingsAndResources
+
+@{
+  var helper = GetService<DemoSettingsAndResourcesHelper>();
+  var settings = helper.GetSettings();
+  var resources = helper.GetResources();
+}
+
+<section class="demo-settings-and-resources">
+  <h2>@resources.Title</h2>
+  <p>@resources.Introduction</p>
+
+  <h3>@resources.SettingsLabel</h3>
+  <dl>
+    <dt>Heading</dt>
+    <dd>@settings.Heading</dd>
+
+    <dt>Theme color</dt>
+    <dd>@settings.ThemeColor</dd>
+
+    <dt>Items per page</dt>
+    <dd>@settings.ItemsPerPage</dd>
+
+    <dt>Show details</dt>
+    <dd>@settings.ShowDetails</dd>
+
+    <dt>Date format</dt>
+    <dd>@settings.DateFormat</dd>
+  </dl>
+
+  <h3>@resources.ResourcesLabel</h3>
+  <dl>
+    <dt>Title</dt>
+    <dd>@resources.Title</dd>
+
+    <dt>Introduction</dt>
+    <dd>@resources.Introduction</dd>
+
+    <dt>Settings label</dt>
+    <dd>@resources.SettingsLabel</dd>
+
+    <dt>Resources label</dt>
+    <dd>@resources.ResourcesLabel</dd>
+
+    <dt>Empty message</dt>
+    <dd>@resources.EmptyMessage</dd>
+  </dl>
+</section>

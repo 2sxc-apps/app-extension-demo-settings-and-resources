@@ -1,0 +1,1322 @@
+{
+  "_": {
+    "V": 1
+  },
+  "Bundles": [
+    {
+      "Name": "default",
+      "ContentTypes": [
+        {
+          "ContentType": {
+            "Id": "63fcabf0-b207-4e06-a721-f789616e897c",
+            "Name": "DemoSettingsAndResourcesResources",
+            "Scope": "Extensions.DemoSettingsAndResources",
+            "Metadata": [],
+            "Attributes": [
+              {
+                "Name": "Title",
+                "Type": "String",
+                "InputType": "string-default",
+                "IsTitle": true,
+                "Metadata": [
+                  {
+                    "Id": 34662,
+                    "Version": 2,
+                    "Guid": "d5e2bd5b-4551-4378-b0ef-795b23e09983",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "Extension Resources"
+                        },
+                        "InputType": {
+                          "en-us": "string-default"
+                        },
+                        "Name": {
+                          "en-us": "Title"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34667,
+                    "Version": 1,
+                    "Guid": "ea4f5839-20b4-4279-a759-2832c4a5acfe",
+                    "Type": {
+                      "Id": "@String",
+                      "Name": "@String"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "DropdownValues": {
+                          "en-us": ""
+                        },
+                        "InputType": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  },
+                  {
+                    "Id": 34668,
+                    "Version": 1,
+                    "Guid": "416db9c7-2fd9-48e4-ae4d-e5b15d7eda17",
+                    "Type": {
+                      "Id": "@string-default",
+                      "Name": "@string-default"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "InputFontFamily": {
+                          "en-us": ""
+                        },
+                        "TextWrapping": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              },
+              {
+                "Name": "Introduction",
+                "Type": "String",
+                "InputType": "string-wysiwyg",
+                "IsTitle": false,
+                "Metadata": [
+                  {
+                    "Id": 34663,
+                    "Version": 2,
+                    "Guid": "0d2c3484-74b7-4cd9-a50e-1ba7b8281868",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "These texts come from extension resources."
+                        },
+                        "InputType": {
+                          "en-us": "string-wysiwyg"
+                        },
+                        "Name": {
+                          "en-us": "Introduction"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34669,
+                    "Version": 1,
+                    "Guid": "006c9537-217a-4374-85be-66936c0129d7",
+                    "Type": {
+                      "Id": "@String",
+                      "Name": "@String"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "DropdownValues": {
+                          "en-us": ""
+                        },
+                        "InputType": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  },
+                  {
+                    "Id": 34670,
+                    "Version": 1,
+                    "Guid": "6b7a50ad-fcbb-4e28-8c0e-6e436abde455",
+                    "Type": {
+                      "Id": "@string-wysiwyg",
+                      "Name": "@string-wysiwyg"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "ButtonAdvanced": {
+                          "en-us": ""
+                        },
+                        "ButtonSource": {
+                          "en-us": ""
+                        },
+                        "Dialog": {
+                          "en-us": ""
+                        },
+                        "InlineInitialHeight": {
+                          "en-us": ""
+                        },
+                        "WysiwygConfiguration": {
+                          "en-us": "d3dde02f-c1dc-43b8-a8b7-4be3c43eadd0"
+                        }
+                      },
+                      "Hyperlink": {
+                        "ContentCss": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              },
+              {
+                "Name": "SettingsLabel",
+                "Type": "String",
+                "InputType": "string-default",
+                "IsTitle": false,
+                "Metadata": [
+                  {
+                    "Id": 34664,
+                    "Version": 2,
+                    "Guid": "74aa9bcc-3f9c-4c8b-808f-b7aaa2894d5e",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "Settings"
+                        },
+                        "InputType": {
+                          "en-us": "string-default"
+                        },
+                        "Name": {
+                          "en-us": "SettingsLabel"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34671,
+                    "Version": 1,
+                    "Guid": "236d8c66-8984-44c1-b26a-8c320376663c",
+                    "Type": {
+                      "Id": "@String",
+                      "Name": "@String"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "DropdownValues": {
+                          "en-us": ""
+                        },
+                        "InputType": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  },
+                  {
+                    "Id": 34672,
+                    "Version": 1,
+                    "Guid": "c0fc9b76-485a-4c7b-b219-c24ee8580d8a",
+                    "Type": {
+                      "Id": "@string-default",
+                      "Name": "@string-default"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "InputFontFamily": {
+                          "en-us": ""
+                        },
+                        "TextWrapping": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              },
+              {
+                "Name": "ResourcesLabel",
+                "Type": "String",
+                "InputType": "string-default",
+                "IsTitle": false,
+                "Metadata": [
+                  {
+                    "Id": 34665,
+                    "Version": 2,
+                    "Guid": "9a4050de-356e-4bb2-85b7-31e3c090d920",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "Resources"
+                        },
+                        "InputType": {
+                          "en-us": "string-default"
+                        },
+                        "Name": {
+                          "en-us": "ResourcesLabel"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34673,
+                    "Version": 1,
+                    "Guid": "ff1c7161-62f1-4580-a6ea-7a25548194dd",
+                    "Type": {
+                      "Id": "@String",
+                      "Name": "@String"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "DropdownValues": {
+                          "en-us": ""
+                        },
+                        "InputType": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  },
+                  {
+                    "Id": 34674,
+                    "Version": 1,
+                    "Guid": "c993aa24-c6fc-4eec-b8d4-61db18e6a186",
+                    "Type": {
+                      "Id": "@string-default",
+                      "Name": "@string-default"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "InputFontFamily": {
+                          "en-us": ""
+                        },
+                        "TextWrapping": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              },
+              {
+                "Name": "EmptyMessage",
+                "Type": "String",
+                "InputType": "string-default",
+                "IsTitle": false,
+                "Metadata": [
+                  {
+                    "Id": 34666,
+                    "Version": 2,
+                    "Guid": "f114c972-6b79-404c-8a2f-c01d1c1aa8b2",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "No items were found."
+                        },
+                        "InputType": {
+                          "en-us": "string-default"
+                        },
+                        "Name": {
+                          "en-us": "EmptyMessage"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34675,
+                    "Version": 1,
+                    "Guid": "673b0756-9b5c-4077-91f7-c55c053369c9",
+                    "Type": {
+                      "Id": "@String",
+                      "Name": "@String"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "DropdownValues": {
+                          "en-us": ""
+                        },
+                        "InputType": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  },
+                  {
+                    "Id": 34676,
+                    "Version": 1,
+                    "Guid": "a866590c-9a7e-4259-9640-1c4f4c1c3131",
+                    "Type": {
+                      "Id": "@string-default",
+                      "Name": "@string-default"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "InputFontFamily": {
+                          "en-us": ""
+                        },
+                        "TextWrapping": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              }
+            ]
+          },
+          "Entities": []
+        },
+        {
+          "ContentType": {
+            "Id": "4b0b8291-032a-4ae2-8ee2-e3d07048d29b",
+            "Name": "DemoSettingsAndResourcesSettings",
+            "Scope": "Extensions.DemoSettingsAndResources",
+            "Metadata": [],
+            "Attributes": [
+              {
+                "Name": "Heading",
+                "Type": "String",
+                "InputType": "string-default",
+                "IsTitle": true,
+                "Metadata": [
+                  {
+                    "Id": 34650,
+                    "Version": 2,
+                    "Guid": "ae34a94b-16c7-4558-804b-29461e3073d6",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "Settings and Resources Demo"
+                        },
+                        "InputType": {
+                          "en-us": "string-default"
+                        },
+                        "Name": {
+                          "en-us": "Heading"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34655,
+                    "Version": 1,
+                    "Guid": "ae9080b3-5df3-49cc-8a5e-ac88565b214b",
+                    "Type": {
+                      "Id": "@String",
+                      "Name": "@String"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "DropdownValues": {
+                          "en-us": ""
+                        },
+                        "InputType": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  },
+                  {
+                    "Id": 34656,
+                    "Version": 1,
+                    "Guid": "5a1ccce7-b2b6-4930-bd26-92a058b68e89",
+                    "Type": {
+                      "Id": "@string-default",
+                      "Name": "@string-default"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "InputFontFamily": {
+                          "en-us": ""
+                        },
+                        "TextWrapping": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              },
+              {
+                "Name": "ThemeColor",
+                "Type": "String",
+                "InputType": "string-default",
+                "IsTitle": false,
+                "Metadata": [
+                  {
+                    "Id": 34651,
+                    "Version": 2,
+                    "Guid": "d4629504-fbad-4cbc-818d-7a1512b584ef",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "blue"
+                        },
+                        "InputType": {
+                          "en-us": "string-default"
+                        },
+                        "Name": {
+                          "en-us": "ThemeColor"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34657,
+                    "Version": 1,
+                    "Guid": "b6b1f263-02ae-4ef4-b37e-611c1ccb3ea0",
+                    "Type": {
+                      "Id": "@String",
+                      "Name": "@String"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "DropdownValues": {
+                          "en-us": ""
+                        },
+                        "InputType": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  },
+                  {
+                    "Id": 34658,
+                    "Version": 1,
+                    "Guid": "322cc140-6035-4ad5-89dc-bcfabb0288a3",
+                    "Type": {
+                      "Id": "@string-default",
+                      "Name": "@string-default"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "InputFontFamily": {
+                          "en-us": ""
+                        },
+                        "TextWrapping": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              },
+              {
+                "Name": "ItemsPerPage",
+                "Type": "Number",
+                "InputType": "number-default",
+                "IsTitle": false,
+                "Metadata": [
+                  {
+                    "Id": 34652,
+                    "Version": 2,
+                    "Guid": "014d8c61-1c33-4be4-8c7a-c1d621123669",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "10"
+                        },
+                        "InputType": {
+                          "en-us": "number-default"
+                        },
+                        "Name": {
+                          "en-us": "ItemsPerPage"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34659,
+                    "Version": 1,
+                    "Guid": "a5da76eb-c26c-4b64-a4de-e9d3ae190776",
+                    "Type": {
+                      "Id": "@Number",
+                      "Name": "@Number"
+                    },
+                    "Attributes": {
+                      "Number": {
+                        "Decimals": {
+                          "en-us": 0
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              },
+              {
+                "Name": "ShowDetails",
+                "Type": "Boolean",
+                "InputType": "boolean-default",
+                "IsTitle": false,
+                "Metadata": [
+                  {
+                    "Id": 34653,
+                    "Version": 2,
+                    "Guid": "76771e45-3a19-41f4-bcd2-48ce4b45bf59",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "true"
+                        },
+                        "InputType": {
+                          "en-us": "boolean-default"
+                        },
+                        "Name": {
+                          "en-us": "ShowDetails"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34660,
+                    "Version": 1,
+                    "Guid": "7fefb6b4-baf7-4e34-bb86-9f88fa7cf295",
+                    "Type": {
+                      "Id": "@Boolean",
+                      "Name": "@Boolean"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "TitleFalse": {
+                          "en-us": ""
+                        },
+                        "TitleIndeterminate": {
+                          "en-us": ""
+                        },
+                        "TitleTrue": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              },
+              {
+                "Name": "DateFormat",
+                "Type": "String",
+                "InputType": "string-default",
+                "IsTitle": false,
+                "Metadata": [
+                  {
+                    "Id": 34683,
+                    "Version": 2,
+                    "Guid": "ebd79ea8-ab92-4ea0-839c-5ea88cbedf9e",
+                    "Type": {
+                      "Id": "@All",
+                      "Name": "@All"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "CustomJavaScript": {
+                          "en-us": ""
+                        },
+                        "DefaultValue": {
+                          "en-us": "dd.MM.yyyy"
+                        },
+                        "InputType": {
+                          "en-us": "string-default"
+                        },
+                        "Name": {
+                          "en-us": "DateFormat"
+                        },
+                        "Notes": {
+                          "en-us": ""
+                        },
+                        "Placeholder": {
+                          "en-us": ""
+                        },
+                        "ValidationRegExJavaScript": {
+                          "en-us": ""
+                        }
+                      },
+                      "Entity": {
+                        "Errors": {
+                          "*": []
+                        },
+                        "Formulas": {
+                          "*": []
+                        },
+                        "Warnings": {
+                          "*": []
+                        }
+                      },
+                      "Boolean": {
+                        "Disabled": {
+                          "en-us": false
+                        },
+                        "DisableTranslation": {
+                          "en-us": false
+                        },
+                        "Required": {
+                          "en-us": false
+                        },
+                        "VisibleInEditUI": {
+                          "en-us": true
+                        }
+                      }
+                    },
+                    "Owner": "unknown"
+                  },
+                  {
+                    "Id": 34684,
+                    "Version": 1,
+                    "Guid": "d399733a-8081-48cc-b2c2-f5d2291d23c3",
+                    "Type": {
+                      "Id": "@String",
+                      "Name": "@String"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "DropdownValues": {
+                          "en-us": ""
+                        },
+                        "InputType": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  },
+                  {
+                    "Id": 34685,
+                    "Version": 1,
+                    "Guid": "cceb0116-16fa-44a6-b389-110715ab41dc",
+                    "Type": {
+                      "Id": "@string-default",
+                      "Name": "@string-default"
+                    },
+                    "Attributes": {
+                      "String": {
+                        "InputFontFamily": {
+                          "en-us": ""
+                        },
+                        "TextWrapping": {
+                          "en-us": ""
+                        }
+                      }
+                    },
+                    "Owner": "dnn:userid=1"
+                  }
+                ]
+              }
+            ]
+          },
+          "Entities": []
+        }
+      ],
+      "Entities": [
+        {
+          "Id": 34677,
+          "Version": 1,
+          "Guid": "dab15a61-2d64-42f8-9003-b7965a11671f",
+          "Type": {
+            "Id": "63fcabf0-b207-4e06-a721-f789616e897c",
+            "Name": "DemoSettingsAndResourcesResources"
+          },
+          "Attributes": {
+            "String": {
+              "EmptyMessage": {
+                "en-us": "No items were found."
+              },
+              "Introduction": {
+                "en-us": "These texts come from extension resources."
+              },
+              "ResourcesLabel": {
+                "en-us": "Resources"
+              },
+              "SettingsLabel": {
+                "en-us": "Settings"
+              },
+              "Title": {
+                "en-us": "Extension Resources"
+              }
+            }
+          },
+          "Owner": "dnn:userid=1",
+          "Metadata": [
+            {
+              "Id": 34690,
+              "Version": 1,
+              "Guid": "5e9307aa-4fc6-4f47-b949-f9f3d45caa86",
+              "Type": {
+                "Id": "32698880-1c2e-41ab-bcfc-420091d3263f",
+                "Name": "SystemExportDecorator"
+              },
+              "Attributes": {
+                "Entity": {
+                  "Configuration": {
+                    "*": [
+                      "a681cac8-1017-42fd-a8ba-1f0c58bae81a"
+                    ]
+                  }
+                }
+              },
+              "Owner": "dnn:userid=1",
+              "For": {
+                "Target": "Entity",
+                "TargetType": 4,
+                "Guid": "dab15a61-2d64-42f8-9003-b7965a11671f"
+              }
+            }
+          ]
+        },
+        {
+          "Id": 34686,
+          "Version": 1,
+          "Guid": "c5202d3b-b4f5-493e-9ec9-a8e4c0487438",
+          "Type": {
+            "Id": "4b0b8291-032a-4ae2-8ee2-e3d07048d29b",
+            "Name": "DemoSettingsAndResourcesSettings"
+          },
+          "Attributes": {
+            "String": {
+              "DateFormat": {
+                "en-us": "dd.MM.yyyy"
+              },
+              "Heading": {
+                "en-us": "Settings and Resources Demo"
+              },
+              "ThemeColor": {
+                "en-us": "blue"
+              }
+            },
+            "Number": {
+              "ItemsPerPage": {
+                "en-us": 10
+              }
+            },
+            "Boolean": {
+              "ShowDetails": {
+                "en-us": true
+              }
+            }
+          },
+          "Owner": "dnn:userid=1",
+          "Metadata": [
+            {
+              "Id": 34691,
+              "Version": 1,
+              "Guid": "fa901de1-dfe9-40c3-82cd-a0514d0a26ea",
+              "Type": {
+                "Id": "32698880-1c2e-41ab-bcfc-420091d3263f",
+                "Name": "SystemExportDecorator"
+              },
+              "Attributes": {
+                "Entity": {
+                  "Configuration": {
+                    "*": [
+                      "a681cac8-1017-42fd-a8ba-1f0c58bae81a"
+                    ]
+                  }
+                }
+              },
+              "Owner": "dnn:userid=1",
+              "For": {
+                "Target": "Entity",
+                "TargetType": 4,
+                "Guid": "c5202d3b-b4f5-493e-9ec9-a8e4c0487438"
+              }
+            }
+          ]
+        },
+        {
+          "Id": 34687,
+          "Version": 1,
+          "Guid": "4a63ce02-4bde-44b1-83e3-b1f6e8f1b45b",
+          "Type": {
+            "Id": "2SexyContent-Template",
+            "Name": "2SexyContent-Template"
+          },
+          "Attributes": {
+            "String": {
+              "ContentTypeStaticName": {
+                "en-us": ""
+              },
+              "Identifier": {
+                "en-us": ""
+              },
+              "ListContentTypeStaticName": {
+                "en-us": ""
+              },
+              "ListPresentationTypeStaticName": {
+                "en-us": ""
+              },
+              "Location": {
+                "en-us": "Site"
+              },
+              "Name": {
+                "en-us": "Demo Settings and Resources"
+              },
+              "Path": {
+                "en-us": "Extensions/demo-settings-and-resources/Demo Settings and Resources.cshtml"
+              },
+              "PresentationTypeStaticName": {
+                "en-us": ""
+              },
+              "SearchIndexingStreams": {
+                "en-us": ""
+              },
+              "StreamsToPublish": {
+                "en-us": ""
+              },
+              "Type": {
+                "en-us": "C# Razor"
+              },
+              "ViewController": {
+                "en-us": ""
+              },
+              "ViewNameInUrl": {
+                "en-us": ""
+              }
+            },
+            "Hyperlink": {
+              "Icon": {
+                "en-us": ""
+              }
+            },
+            "Entity": {
+              "ContentDemoEntity": {
+                "*": []
+              },
+              "ListContentDemoEntity": {
+                "*": []
+              },
+              "ListPresentationDemoEntity": {
+                "*": []
+              },
+              "Pipeline": {
+                "*": []
+              },
+              "PresentationDemoEntity": {
+                "*": []
+              },
+              "Resources": {
+                "*": []
+              },
+              "Settings": {
+                "*": []
+              }
+            },
+            "Boolean": {
+              "IsHidden": {
+                "en-us": false
+              },
+              "SearchIndexingDisabled": {
+                "en-us": false
+              },
+              "UseForList": {
+                "en-us": false
+              }
+            }
+          },
+          "Owner": "dnn:userid=1",
+          "Metadata": [
+            {
+              "Id": 34692,
+              "Version": 1,
+              "Guid": "4c664ace-e114-4b55-91d9-1c301aaab646",
+              "Type": {
+                "Id": "32698880-1c2e-41ab-bcfc-420091d3263f",
+                "Name": "SystemExportDecorator"
+              },
+              "Attributes": {
+                "Entity": {
+                  "Configuration": {
+                    "*": [
+                      "a681cac8-1017-42fd-a8ba-1f0c58bae81a"
+                    ]
+                  }
+                }
+              },
+              "Owner": "dnn:userid=1",
+              "For": {
+                "Target": "Entity",
+                "TargetType": 4,
+                "Guid": "4a63ce02-4bde-44b1-83e3-b1f6e8f1b45b"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
